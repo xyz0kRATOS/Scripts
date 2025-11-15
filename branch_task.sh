@@ -18,6 +18,6 @@ echo "Rebased feature-branch onto main"
 git branch -d feature-branch
 echo "Deleted branch: feature-branch"
 
-
+touch output.txt
 echo "This file is created by Job 1" > output.txt
 echo "Job 1 completed successfully."
