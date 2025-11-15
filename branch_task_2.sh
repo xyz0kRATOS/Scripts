@@ -3,7 +3,7 @@
 WEB_DIR="/var/www/html/"
 
 if [ -f output.txt ]; then
-    sudo cp ~/workspace/branching-job-01/output.txt "$WEB_DIR"
+    cp output.txt "$WEB_DIR"
     echo "File published to web server."
     echo "URL: http://localhost/output.txt"
 else
